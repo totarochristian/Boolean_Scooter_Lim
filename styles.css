@@ -1,0 +1,65 @@
+body {
+	background-image: url('./img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lexend Deca",sans-serif;
+}
+h3{
+	margin-bottom: 3px;
+}
+h2{
+	color: #00DD00;
+	font-size: 1.8em;
+	text-align: center;
+	padding-top: 25px;
+}
+#sezioneGenerale{
+	position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    height: 820px;
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+#sezioneGenerale img{
+	height: 100px;
+	position: relative;
+	top: 5%;
+	left: 40%;
+}
+#menuAzioni{
+	text-align: center;
+	position: relative;
+	margin-top: -20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px;
+	background-color: #00DD00;
+}
+#monopattini{
+	color: white;
+	position: relative;
+	margin-left: 5%;
+}
+#livelloAlto{
+	background-color: #1EC31E;
+	height: 30px;
+	width: 600px;
+	border-radius: 5px;
+}
+#livelloMedio{
+	background-color: #F5B453;
+	height: 30px;
+	width: 350px;
+	border-radius: 5px;
+}
+#livelloBasso{
+	background-color: #BE4141;
+	height: 30px;
+	width: 170px;
+	border-radius: 5px;
+}
