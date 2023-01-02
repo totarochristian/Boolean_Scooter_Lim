@@ -7,39 +7,43 @@
 	<body>
 		<!--Contenitore di tutto il form-->
 		<div id="sezioneGenerale">
-			<img src="./img/logo.png" alt="Logo" draggable=false>
-			<h2>Taking Booleaners from A to B</h2>
-			<!--Contenitore pulsanti azioni-->
-			<div id="menuAzioni">
-				<button type="button">Prenota</button>&nbsp;<button type="button">Termina Prenotazione</button>&nbsp;<button type="button">Accendi luce</button>
-			</div>
+			<header>
+				<img src="./img/logo.png" alt="Logo" draggable=false>
+				<h2>Taking Booleaners from A to B</h2>
+			</header>
+			<nav>
+				<!--Contenitore pulsanti azioni-->
+				<div id="menuAzioni">
+					<button type="button">Prenota</button>&nbsp;<button type="button">Termina Prenotazione</button>&nbsp;<button type="button">Accendi luce</button>
+				</div>
+			</nav>
 			<!--Contenitore di monopattini vicini-->
-			<div id="monopattini">
+			<main id="monopattini">
 				<!--Monopattino 1-->
-				<div id="monopattino1">
+				<section id="monopattino1">
 					<h3>&#9633;&nbsp;Monopattino Gino22</h3>
 					&map; Via Guadalametri &ndash; a 220 metri da te<br>
 					Stato carica:
 					<!--Livello di carica intermedio-->
 					<div id="livelloMedio"></div>
-				</div>
+				</section>
 				<!--Monopattino 2-->
-				<div id="monopattino2">
+				<section id="monopattino2">
 					<h3>&#9633;&nbsp;Monopattino Mike24</h3>
 					&map; Via Ricciardoni &ndash; a 420 metri da te<br>
 					Stato carica:
 					<!--Livello di carica alto-->
 					<div id="livelloAlto"></div>
-				</div>
+				</section>
 				<!--Monopattino 3-->
-				<div id="monopattino3">
+				<section id="monopattino3">
 					<h3>&#9633;&nbsp;Monopattino Fede154</h3>
 					&map; Via Mentarini &ndash; a 490 metri da te<br>
 					Stato carica:
 					<!--Livello di carica -->
 					<div id="livelloBasso"></div>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 	</body>
 </html>
